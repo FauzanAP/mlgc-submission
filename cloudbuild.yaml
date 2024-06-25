@@ -20,5 +20,6 @@ steps:
       - "--cpu=1"
       - "--memory=2048Mi"
       - "--allow-unauthenticated"
+      - "--set-secrets=MODEL_URL=MODEL_URL:latest"
 images:
   - "asia-southeast2-docker.pkg.dev/submissionmlgc-fauzan-427513/dockerml/model-image-last"
